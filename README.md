@@ -41,3 +41,25 @@
     integer : 영어로 정수 int를 String 으로 String 을 int 로 변환하는 래퍼 클래스
   6. 문자열을 숫자로 int i = Integer.parseInt("93");
                     double d = Double.parseDouble("98.8");
+
+
+## chap_02 연산자
+### _01_Operator1 
+* 일반 연산자 -> 사칙연산 +-*/
+* 증감 연산자 ->  ++a > 식을 먼저 계산하고 나서 1을 더함, a++ 1을 더하고 나서 계산을 함
+### _02_Operator2
+* 대입 연산자 -> 일반 연산자와 같이 사용. a = a + 1;
+* 복합 대입 연산자 -> a += 1;
+### _03_Operator3
+* 비교 연산자 -> 5는 3보다 크다 5 > 3 / 5 <= 3 
+* 3은 3과 같지 않다 3 != 3 false
+### _04_Operator4
+* 논리 연산자 || && 
+* || 하나라도 true 이면 true
+* && 모두 true 여야 true
+### _05_Operator5
+* 삼항 연산자 (조건) ? "참" : "거짓"
+
+
+
+
