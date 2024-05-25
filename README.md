@@ -61,5 +61,25 @@
 * 삼항 연산자 (조건) ? "참" : "거짓"
 
 
+## chap_03
+### _01_String1
+* 문자열의 길이 : .length()
+* 대소문자 변환 : .toUpperCase() .toLowerCase()
+* 포함관계 : .containts("**")
+* 문자열의 위치 정보 : .indexOf("***") -> ***의  문자가 어디에 있는지 0부터 세어서 찾아준다.
+* 문자열의 위치 정보 : .indexOf("0") -> 0의 첫 번째 문자의 위치
+* 문자열의 위치 정보 : .laseIndexOf("0") -> 0의 마지막 문자 위치
+* 이 문자열로 시작하나 : .startsWith("****") -> 이 문자열로 시작하면 true 아니면 false
+* 이 문자열로 끝나나 : .endsWith("***") -> 이 문자열로 끝나면 true 아니면 false
 
+### _02_String2
+* 문자열 변환 : .replace("0", "1") -> 0을 1로 변환
+* .substring(7) -> index 0qnxj 7번째 문자열
+* 원하는 문자만 출력 : .substring(.indexOf("Java"), .indexOf(".")) -> JAva 부터 시작해서 .의 직전까지만 출력
+* 공백 제거 : .trim()
+* 문자열 결함 : .concat()
+
+### _03_String3
+* 문자열 비교 : .equals("") // 같으며 true 다르면 false
+* 대소문자 상관업이 내용만 같은지 확인하고 싶을때 : s.qualsIngnoreCase("000")
 
